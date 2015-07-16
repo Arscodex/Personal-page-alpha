@@ -1,0 +1,99 @@
+/* Resets */
+body, h1, h2, h3, h4, div, ul, li, a, p, div {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, sans; }
+
+/* Main color variables */
+/* Wrapper */
+/* Header */
+#header {
+  background-color: #222222; }
+
+#title {
+  color: #eeeeee;
+  text-align: center;
+  font-family: Arial, sans;
+  font-size: 20px;
+  font-weight: bold; }
+
+/* Game Area */
+#mainContent {
+  padding-top: 10px; }
+
+#game {
+  margin: 0 auto;
+  width: 30%; }
+  @media screen and (max-width: 1000px) {
+    #game {
+      width: 50%; } }
+  @media screen and (max-width: 600px) {
+    #game {
+      width: 100%; } }
+
+/* Subscreen */
+#subscreen {
+  width: 100%; }
+
+#display {
+  width: 100%;
+  height: 20px;
+  background-color: #444444;
+  color: #dddddd;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 4px;
+  margin: 0 auto 10px; }
+
+.button {
+  width: 99%;
+  height: 20px;
+  border: solid 1px #444444;
+  background-color: #dddddd;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 4px;
+  margin: 0 auto 10px; }
+  .button:hover {
+    cursor: pointer;
+    background-color: #444444;
+    color: #dddddd; }
+  .button:active {
+    background-color: #444444;
+    color: #dddddd; }
+
+.buttonActive {
+  background-color: #444444;
+  color: #dddddd; }
+
+/* Gameboard */
+#gameboard {
+  width: 100%;
+  margin: 10px auto;
+  min-height: 100px;
+  position: relative; }
+
+#gameboardSVG {
+  width: 100%; }
+
+.gameSquare {
+  float: left;
+  position: absolute; }
+  .gameSquare:nth-child(odd) {
+    background-color: #6699FF; }
+  .gameSquare:nth-child(even) {
+    background-color: #000099; }
+
+/* The following game elements are for the svg elements first, followed by their shapes */
+.gameElementSquare {
+  position: absolute; }
+
+.gameElementBall {
+  position: absolute;
+  z-index: 1; }
+
+/*# sourceMappingURL=style.css.map */

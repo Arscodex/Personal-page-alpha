@@ -1,0 +1,10 @@
+/* Resets */
+body, h1, h2, h3, div, p, ul, li, a {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+/* Font and Color Variables */
+
+/*# sourceMappingURL=styles.css.map */
